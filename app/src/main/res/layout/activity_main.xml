@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <ScrollView
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <Button
+                    android:layout_marginTop="10dp"
+                    android:text="handler相关demo"
+                    android:id="@+id/btn_handler"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:layout_marginTop="10dp"
+                    android:text="handler定时发送消息"
+                    android:id="@+id/btn_handler_thread"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:layout_marginTop="10dp"
+                    android:text="intentService应用"
+                    android:id="@+id/btn_intent_service"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:layout_marginTop="10dp"
+                    android:text="内存泄露测试"
+                    android:id="@+id/btn_intent_leak_test"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:layout_marginTop="10dp"
+                    android:text="服务测试"
+                    android:id="@+id/btn_intent_service_demo"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:layout_marginTop="10dp"
+                    android:text="fragment生命周期测试"
+                    android:id="@+id/btn_intent_fragment"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:layout_marginTop="10dp"
+                    android:text="自定义控件圆环"
+                    android:id="@+id/btn_widget_circle"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:layout_marginTop="10dp"
+                    android:text=" android5.0新特性"
+                    android:id="@+id/btn_meterial_design"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:layout_marginTop="10dp"
+                    android:text="测试事件分发"
+                    android:id="@+id/btn_event_dispatch"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:layout_marginTop="10dp"
+                    android:text="逻辑测试题"
+                    android:id="@+id/btn_logic_test"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:layout_marginTop="10dp"
+                    android:text="数字和字符串转换测试"
+                    android:id="@+id/btn_decimal_test"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <Button
+                    android:layout_marginTop="10dp"
+                    android:text="跳转至市场下载页面"
+                    android:id="@+id/btn_market_download"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyView">
+
+        <attr name="radius" format="dimension"/>
+        <attr name="color" format="reference|color"/>
+        <attr name="centerTextSize" format="dimension"/>
+        <attr name="centerTextColor" format="reference|color"/>
+        <attr name="centerTextAlign">
+            <enum name="left" value="0x00000000"/>
+            <enum name="center" value="0x00000001"/>
+            <enum name="right" value="0x00000002"/>
+        </attr>
+        <attr name="shape">
+            <enum name="circle" value="0x00000000"/>
+            <enum name="rect" value="0x00000001"/>
+            <enum name="roundRect" value="0x00000002"/>
+            <enum name="dot" value="0x00000003"/>
+            <enum name="line" value="0x00000004"/>
+            <!--弧形-->
+            <enum name="arc" value="0x00000005"/>
+            <enum name="path" value="0x00000006"/>
+            <enum name="oval" value="0x00000007"/>
+        </attr>
+        <attr name="circleFill" format="boolean"/>
+    </declare-styleable>
+
+
+    <!--圆环-->
+    <declare-styleable name="RoundView">
+
+        <!--圆环半径-->
+        <attr name="ring_radius" format="dimension"/>
+        <!--圆环宽度-->
+        <attr name="ring_width" format="dimension"/>
+        <!--圆环颜色-->
+        <attr name="ring_color" format="color"/>
+
+        <!--进度圆环宽度-->
+        <attr name="progress_ring_width" format="dimension"/>
+        <!--进度圆环开始颜色-->
+        <attr name="progress_ring_start_color" format="color"/>
+        <!--进度圆环结束颜色-->
+        <attr name="progress_ring_end_color" format="color"/>
+
+        <!--中间文字颜色-->
+        <attr name="text_color" format="color"/>
+        <!--中间文字大小-->
+        <attr name="text_size" format="dimension"/>
+
+
+    </declare-styleable>
+
+
+</resources>

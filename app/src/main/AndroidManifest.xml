@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools" package="com.aiitec.studydemo">
+
+    <application
+            android:name=".App"
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme" tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".handler.HandlerClass"/>
+        <activity android:name=".handler.HandlerThreadActivity"/>
+        <activity android:name=".intent_service.IntentServiceActivity"/>
+        <service android:name=".intent_service.IntentServiceDemo"/>
+        <activity android:name=".leak.LeakTestActivity"/>
+        <activity android:name=".servicedemo.ServiceTestActivity"/>
+        <activity android:name=".fragmentdemo.FragmentDemoActivity"/>
+        <activity android:name=".widget.WidgetActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".widget.activity.GlobalActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".MD.MeterialDesignActivity"/>
+        <activity android:name=".EventDispatch.EventDispatchActivity"/>
+        <activity android:name=".test.TestArithmeticActivity"/>
+        <activity android:name=".test.activity.ResultActivity"/>
+        <activity android:name=".test.activity.TestDecimalActivity"/>
+        <activity android:name=".market.MarketActivity"/>
+        <activity android:name=".skeleton.SkeletonActivity"/>
+
+    </application>
+
+</manifest>
